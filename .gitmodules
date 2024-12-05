@@ -1,6 +1,6 @@
-[submodule "submodules/ynov-frontend"]
-    path = submodules/ynov-frontend
-    url = https://github.com/MaxPW777/Projet-B3-Ynov-Frontend.git
-[submodule "submodules/ynov-backend"]
-    path = submodules/ynov-backend
-    url = https://github.com/MaxPW777/projet-b3-ynov-backend.git
+[submodule "submodules/projet-b3-backend"]
+	path = submodules/projet-b3-backend
+	url = https://github.com/MaxPW777/projet-b3-backend.git
+[submodule "submodules/projet-b3-frontend"]
+	path = submodules/projet-b3-frontend
+	url = https://github.com/MaxPW777/projet-b3-frontend.git
