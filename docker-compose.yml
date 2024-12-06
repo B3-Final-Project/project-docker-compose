@@ -1,3 +1,12 @@
 include:
   - 'submodules/projet-b3-frontend/docker-compose.yml'
   - 'submodules/projet-b3-backend/docker-compose.yml'
+services:
+  dozzle:
+    container_name: dozzle-ynov
+    image: amir20/dozzle:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 9999:8080
+    restart: always
