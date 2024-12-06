@@ -1,6 +1,8 @@
 [submodule "submodules/projet-b3-backend"]
 	path = submodules/projet-b3-backend
 	url = https://github.com/MaxPW777/projet-b3-backend.git
+	branch = main
 [submodule "submodules/projet-b3-frontend"]
 	path = submodules/projet-b3-frontend
 	url = https://github.com/MaxPW777/projet-b3-frontend.git
+	branch = main
