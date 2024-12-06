@@ -1,0 +1,3 @@
+include:
+  - 'submodules/projet-b3-frontend/docker-compose.yml'
+  - 'submodules/projet-b3-backend/docker-compose.yml'
