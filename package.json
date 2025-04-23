@@ -1,0 +1,23 @@
+{
+  "name": "project-docker-compose",
+  "version": "1.0.0",
+  "description": "- Node.js - Git",
+  "homepage": "https://github.com/B3-Final-Project/project-docker-compose#readme",
+  "bugs": {
+    "url": "https://github.com/B3-Final-Project/project-docker-compose/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B3-Final-Project/project-docker-compose.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sops:decrypt": "npm --prefix submodules/projet-b3-frontend run sops:decrypt && npm --prefix submodules/projet-b3-backend run sops:decrypt"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {}
+}
