@@ -3,7 +3,7 @@ include:
   - 'submodules/projet-b3-backend/docker-compose.yml'
 services:
   dozzle:
-    container_name: dozzle
+    container_name: dozzle-project
     image: amir20/dozzle:latest
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
